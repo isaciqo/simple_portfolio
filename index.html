@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isac Oliveira - Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="fixed-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <span><i class="fas fa-circle"></i> Isac Oliveira</span>
+                    <span class="profession">Backend Developer</span>
+                </div>
+              </a>
+            <nav class="right-nav">
+                <ul>
+                    <li><a href="docs/Isac_Oliveira_CV.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                    <li><a href="ProfessionalTimeline.html">Professional timeline</a></li>
+                    <li><a href="projects.html">project</a></li>
+                    <li><a href="#personal">Pessoal</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="profile-image-container">
+                    <!-- Versão com duas fotos estáticas -->
+                    <img src="images/profile.jpg.png" alt="Foto de Isac Oliveira" class="profile-image primary">
+                    <img src="images/profile-secondary.jpg.png" alt="Foto secundária de Isac Oliveira" class="profile-image secondary">
+                    
+                    <!-- 
+                        VERSÃO ALTERNATIVA COM GIF (descomente para usar):
+                        <img src="images/profile.jpg" alt="Foto de Isac Oliveira" class="profile-image primary">
+                        <img src="images/profile-animation.gif" alt="Animação de Isac Oliveira" class="profile-image gif">
+                    -->
+                </div>
+                <div class="text-content">
+                    <h1>Isac Oliveira</h1>
+                    <div class="about-me">
+                        <p>Back-End Developer with strong expertise in Node.js, cloud infrastructure, and database management. 
+                            Experienced in designing and maintaining scalable server-side applications, developing RESTful APIs, and 
+                            implementing secure, high-performance backend solutions.</p>
+                        <p>Adept at collaborating with remote teams, managing 
+                            SaaS application logic, and enhancing DevOps pipelines. Proficient in PostgreSQL, AWS, and modern backend 
+                            architecture. Eager to contribute to innovative, remote-first development teams.</p>
+                    </div>
+                    <div class="links-buttons">
+                        <a href="docs/Isac_Oliveira_CV.pdf" target="_blank" rel="noopener noreferrer" class="button resume-btn">Resume</a>
+                        <a href="ProfessionalTimeline.html" class="button research-btn">Professional timeline</a>
+                        <a href="projects.html" class="button outreach-btn">project</a>
+                        <a href="#personal" class="button personal-btn">Pessoal</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Isac Oliveira. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>
